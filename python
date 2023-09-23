@@ -1,0 +1,9 @@
+def checkList(list):
+   a = len(list) - 1
+   if list[0] == list[a]:
+      print('last item and first item are equal')
+   else:
+      print('last item and first item are not equal')
+
+ list = [1,2,3,4,1]
+ list2 = [1,2,3,4,5]
